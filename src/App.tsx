@@ -3,6 +3,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
+import AddHero from "./Component/AddHero";
+import Hero from './Component/Hero';
+import HeroList from './Component/HeroList';
+
 function App() {
   return (
     <div>

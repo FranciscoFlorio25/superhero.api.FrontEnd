@@ -2,9 +2,9 @@ export default interface IHero{
     Id: any;
     Name: string;
     Description: string;
-    publisher: string;
+    Publisher: string;
     Age: number;
-    powers: string;
+    Powers: string;
     Association: string;
     ImgUrl: string;
 }
