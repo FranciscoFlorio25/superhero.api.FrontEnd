@@ -1,15 +1,12 @@
 import http from "../http-common";
 import IHero from "../Types/Hero";
 
-
-
 const GetAll = () =>{
     return http.get<Array<IHero>>("/SuperHero");
 }
 const GetById = (id: any) =>{
     return http.get<IHero>("/SuperHero/${id}");
 }
-
 const GetByName = (name: string) => {
     return http.get<Array<IHero>>("/SuperHero/${name}");
 }
